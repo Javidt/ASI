@@ -1,0 +1,14 @@
+Errores:
+  carácteres fin de línea tipo Windows, uso de un directorio estático....
+  Utilizar un directorio estático correspondiente al directorio de un usuario regular
+  (/home/practicas/Documentos) es mala opción, además de ser peligrosa.
+  El script principal debe funcionar con rutas tanto relativas como absolutas a ficheros
+  de configuración y de perfil de servicio. No he logrado hacer que funcione para una máquina distinta de la local.
+
+  No comprueba programáticamente si un volumen lógico superará el límite del grupo de volúmenes.
+  Mount: Aparecen errores relativos a "fich".
+  RAID: Aparecen errores relativos a "fich".
+  NFS: Me ha sido imposible comprobar su funcionamiento debido a todos los problemas comentados inicialmente. C: En lineaNFSok, se comprueba directorio remoto en local. S: No es necesario reiniciar el servicio, basta con llamar a "exportfs". Se debía exportar para todas las redes.
+  NIS: Me ha sido imposible comprobar su funcionamiento debido a todos los problemas comentados inicialmente. C: Falta configurar NISCLIENT en /etc/default/nis, y la configuracion de NISSERVER puede fallar. Falta configurar /etc/nsswitch.conf.
+  Backup: C: La línea de crontab tiene referencia a un script con una ruta relativa, ¿relativa a qué? No se instala rsync. 
+  S: Según el enunciado, si no existe el directorio debería fallar. No se instala rsync.
