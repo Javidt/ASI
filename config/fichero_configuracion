@@ -1,0 +1,33 @@
+#maquina-destino nombre-del-servicio fichero-de-perfil-de-servicio
+
+#Servicio mount
+#10.0.2.15 mount mount_raid.conf
+#10.0.2.7 mount mount_raid_conf
+#10.0.2.4 mount fich_erróneo
+
+#Servicio RAID
+#10.0.2.15 raid raid.conf
+#10.0.2.4 raid raid.conf
+
+#Servicio LVM
+#10.0.2.15 lvm lvm.conf
+#10.0.2.4 lvm lvm.conf
+
+#Servicio NIS
+#10.0.2.4 nis_server nis_server.conf
+#10.0.2.15 nis_client nis_client.conf
+#10.0.2.6 nis_client nis_client.conf
+
+#Servicio NFS
+#10.0.2.4 nfs_server nfs_server.conf
+#10.0.2.15 nfs_client nfs_client.conf
+#10.0.2.7 nfs_client nfs_client.conf
+#10.0.2.4 nfs_ nfs_client.conf
+
+#Servicio de backup
+10.0.2.15 backup_server backup_server.conf
+10.0.2.4 backup_client backup_client.conf
+
+
+
+
